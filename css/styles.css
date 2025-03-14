@@ -12,6 +12,7 @@ a {
 
 .logo {
 font: 700 18px / 1.16667 "Raleway", sans-serif;
+line-height: 1.17
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
@@ -31,6 +32,8 @@ color: #4d5ae5;
 }
 .nav-link {
 letter-spacing: 0.02em;
+font-weight: 500
+line-height: 1.5
 color: #2e2f42;
 }
 
