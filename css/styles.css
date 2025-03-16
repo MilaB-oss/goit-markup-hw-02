@@ -24,7 +24,7 @@ a {
     letter-spacing: 0.03em
 }
 
-.logo {
+.header-logo {
 font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
@@ -35,7 +35,7 @@ color: #4d5ae5;
 text-decoration: none;
 }
 
-.header-logo, .logo-part {
+.logo-part {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -177,9 +177,9 @@ li {
 }
 
 .portfolio-title {
-    font-size: 20px;
+    font-size: 36px;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 1.1;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
