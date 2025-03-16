@@ -3,7 +3,9 @@ body{
     color: #434455;
     background-color: background #FFFFFF;
 }
-ul, ol {
+
+ul, 
+ol {
 list-style: none;
 }
 a {
@@ -11,28 +13,29 @@ a {
 }
 
 .logo {
-font: 700 18px / 1.16667 "Raleway", sans-serif;
+font-family: "Raleway", sans-serif;
+font-weight: 700;
 line-height: 1.17
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
 }
+
 .header-logo .logo-part {
     color: #2e2f42;
+    line-height: 1.17
 }
 
-.header-logo {
-    margin-right: 76px;
-}
-.footer-logo {
-    margin-bottom: 16px;
-}
 .footer-logo .logo-part {
     color: #f4f4fd;
+    line-height: 1.17
+    letter-spacing: 0.02em
 }
+
 .nav-link {
+font-size: 16;
 letter-spacing: 0.02em;
-font-weight: 500
+font-weight:500
 line-height: 1.5
 color: #2e2f42;
 }
@@ -42,7 +45,9 @@ color: #2e2f42;
 }
 
 .contacts-link {
+font-size: 16;
 letter-spacing: 0.02em;
+line-height: 1.5
 color: #434455;
 }
 
@@ -51,9 +56,9 @@ color: #434455;
 .nav-link:hover,
 .nav-link:focus {
     letter-spacing: 0.02em;
-    color: #434455;
+    color: #404bbf;
 }
 
 .page-footer {
-    background-color: #2e2f42;
+        background-color: #2e2f42;
 }
