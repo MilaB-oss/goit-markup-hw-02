@@ -13,12 +13,15 @@ h1,h3 {
     letter-spacing: 0.03em
     background-color: #ffffff;
 }
+
 ul, 
 ol {
 list-style: none;
 }
+
 a {
     text-decoration: none;
+    letter-spacing: 0.03em
 }
 
 .logo {
@@ -29,9 +32,10 @@ line-height: 1.17
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
+text-decoration: none;
 }
 
-.header-logo .logo-part {
+.header-logo, .logo-part {
     font-size: 18px
     line-height: 1.17
     letter-spacing: 0.03em;
@@ -50,11 +54,11 @@ color: #4d5ae5;
 }
 
 .nav-link {
-font-size: 16;
+font-size: 16px;
 letter-spacing: 0.02em;
-font-weight:500
-line-height:1.5
-color: #2e2f42;
+font-weight: 500;
+line-height: 1.5;
+color:  #2e2f42;
 }
 
 .contacts {
@@ -62,9 +66,9 @@ color: #2e2f42;
 }
 
 .contacts-link {
-font-size: 16;
+font-size: 16px;
 letter-spacing: 0.02em;
-line-height: 1.5
+line-height: 1.5;
 color: #434455;
 }
 
@@ -83,7 +87,7 @@ color: #434455;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center
+    text-align: center;
     color: #ffffff;
 }
 .section-main-button {
@@ -91,11 +95,11 @@ color: #434455;
     font-weight: 500;
     font-family: "Roboto", sans-serif;
     line-height: 1.5;
-    text-align: center
+    text-align: center;
     letter-spacing: 0.04em;
     color: #ffffff;
     background-color: #4D5AE5;
-    cursor: pointer
+    cursor: pointer;
     border: none;
 }
 .section-main-button:hover,
@@ -142,7 +146,7 @@ li {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-    text-transform: capitalize
+    text-transform: capitalize;
     color: #2e2f42;
 }
 
@@ -173,8 +177,9 @@ li {
 }
 
 .portfolio-title {
-    font-size: 36px;
-    line-height: 1.11;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
@@ -191,7 +196,8 @@ li {
 
 .portfolio-image {}
 
-.portfolio-title-small {
+.portfolio-title-small 
+{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
