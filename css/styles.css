@@ -36,17 +36,17 @@ text-decoration: none;
 }
 
 .header-logo, .logo-part {
-    font-size: 18px
-    line-height: 1.17
+    font-size: 18px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     color: #2e2f42;
-    line-height: 1.17
+    line-height: 1.17;
 }
 
 .footer-logo .logo-part {
     color: #f4f4fd;
-    line-height: 1.17
-    letter-spacing: 0.02em
+    line-height: 1.17;
+    letter-spacing: 0.02em;
 }
 
 .nav-list {
@@ -177,9 +177,9 @@ li {
 }
 
 .portfolio-title {
-    font-size: 20px;
+    font-size: 36px;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 1.1;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
