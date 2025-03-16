@@ -5,7 +5,7 @@ body{
 }
 
 h1,h3 {
-        color: #2E2F42;
+    color: #2E2F42;
 }
 .page-header {
     font-size: 18px;
@@ -82,6 +82,8 @@ color: #434455;
     background: #2e2f42;
     font-size: 56px;
     line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center
     color: #ffffff;
 }
 .section-main-button {
@@ -89,9 +91,11 @@ color: #434455;
     font-weight: 500;
     font-family: "Roboto", sans-serif;
     line-height: 1.5;
+    text-align: center
     letter-spacing: 0.04em;
     color: #ffffff;
     background-color: #4D5AE5;
+    cursor: pointer
     border: none;
 }
 .section-main-button:hover,
@@ -101,19 +105,17 @@ color: #434455;
 
 li {
     background-color: #F4F4FD;
-    width: 280px;
 }
 .section-features {
     background-color: #ffffff;
 }
 
 .features-list {
-    list-style: none;
-    
+    list-style: none;  
 }
 
 .feature-item {
-    width: 280px;
+    text-align: center;
 }
 
 .feature-title {
@@ -139,6 +141,8 @@ li {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize
     color: #2e2f42;
 }
 
@@ -148,7 +152,6 @@ li {
 
 .team-item {
     background-color: #FFFFFF;
-    width: 280px;
     }
 
 .team-title-small {
@@ -173,6 +176,8 @@ li {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
     color: #2e2f42;
 }
 
@@ -182,12 +187,9 @@ li {
 
 .portfolio-item {
     background-color: #FFFFFF;
-    width: 360px;
 }
 
-.portfolio-image {
-    width: 360px;
-}
+.portfolio-image {}
 
 .portfolio-title-small {
     font-weight: 500;
@@ -206,4 +208,25 @@ li {
 
 .page-footer {
     background-color: #2e2f42;
+}
+
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
+}
+
+.footer-logo-part {
+    color: #f4f4fd;
+}
+
+.footer-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
 }
